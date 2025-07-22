@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Tela de Cadastro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Cadastro de Usuário</h2>
+    <form id="cadastroForm">
+      <label for="nome">Nome:</label>
+      <input required type="text" id="nome"><br><br>
+
+      <label for="email">E-mail:</label>
+      <input required type="email" id="email"><br><br>
+
+      <label for="idade">Idade:</label>
+      <input required type="number" id="idade"><br><br>
+
+      <button type="submit" id="botao">Cadastrar</button>
+    </form>
+
+    <p id="mensagem"></p>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
